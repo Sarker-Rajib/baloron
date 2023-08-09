@@ -3,6 +3,12 @@
     padding: 20px 0;
     color: #fff;
 
+    .container {
+        @media(min-width: 1600px) {
+            max-width: 1540px;
+        }
+    }
+
     .navbar {
         .navbar-nav {
             .nav-link {

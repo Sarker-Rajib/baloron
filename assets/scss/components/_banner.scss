@@ -1,0 +1,22 @@
+.banner {
+    min-height: 840px;
+    background: url(../images/banner-bg.png) no-repeat left bottom/cover;
+    padding-top: 150px;
+    color: #fff;
+
+    .container {
+        max-width: 1220px;
+    }
+
+    h1 {
+        font-family: 'Cilo';
+        font-size: 70px;
+        color: #f2f2f3;
+    }
+
+    p {
+        color: #787884;
+        font-family: 'Cilo';
+        font-size: 20px;
+    }
+}

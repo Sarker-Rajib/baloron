@@ -60,6 +60,11 @@ body {
   padding: 20px 0;
   color: #fff;
 }
+@media (min-width: 1600px) {
+  .header .container {
+    max-width: 1540px;
+  }
+}
 .header .navbar .navbar-nav .nav-link {
   color: #fff;
   text-transform: uppercase;
@@ -80,4 +85,24 @@ body {
 
 /*===// end of layouts css === */
 /*=== components css start === */
+.banner {
+  min-height: 840px;
+  background: url(../images/banner-bg.png) no-repeat left bottom/cover;
+  padding-top: 150px;
+  color: #fff;
+}
+.banner .container {
+  max-width: 1220px;
+}
+.banner h1 {
+  font-family: "Cilo";
+  font-size: 70px;
+  color: #f2f2f3;
+}
+.banner p {
+  color: #787884;
+  font-family: "Cilo";
+  font-size: 20px;
+}
+
 /*===// end of components css === *//*# sourceMappingURL=style.css.map */
