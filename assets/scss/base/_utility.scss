@@ -1,6 +1,27 @@
-// width
-@media(min-width: 768px){
-   .w-md-50 {
-      width: 50%;
+.heading {
+   color: #3c3c3c;
+   font-size: 40px;
+   padding-bottom: 10px;
+
+   &.blue {
+      color: #183c6f;
    }
+
+   &.case {
+      color: #2f6d76;
+   }
+}
+
+.sub-heading {
+   color: #172740;
+   font-size: 20px;
+   padding-bottom: 30px;
+}
+
+.paratype-a {
+   color: #6b6b6b;
+}
+
+.paratype-b {
+   color: #e8e8e8;
 }
