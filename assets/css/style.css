@@ -104,6 +104,20 @@ body {
   padding: 5px;
 }
 
+@media (min-width: 1600px) {
+  .footer .container {
+    max-width: 1540px;
+  }
+}
+.footer .footer-top {
+  padding: 50px 0 100px;
+  background: #bbc5cc;
+}
+.footer .footer-bottom {
+  padding: 25px 0;
+  background: #a2aeb6;
+}
+
 /*===// end of layouts css === */
 /*=== components css start === */
 .banner {
