@@ -1,0 +1,32 @@
+.header {
+    background: #06050a;
+    padding: 20px 0;
+    color: #fff;
+
+    .navbar {
+        .navbar-nav {
+            .nav-link {
+                color: #fff;
+                text-transform: uppercase;
+                // font-family: 'Cilo';
+
+                &:hover {
+                    color: #8db2c8;
+                }
+            }
+        }
+
+
+        .end-round {
+            border: 3px solid #1867af;
+            padding: 0 15px;
+            border-radius: 25px;
+
+            .lang {
+                display: inline-block;
+                border-right: 1px solid #8db2c8;
+                padding: 5px;
+            }
+        }
+    }
+}

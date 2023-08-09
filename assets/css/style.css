@@ -55,6 +55,29 @@ body {
 }
 /*===// end of base css === */
 /*=== layouts css start === */
+.header {
+  background: #06050a;
+  padding: 20px 0;
+  color: #fff;
+}
+.header .navbar .navbar-nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+}
+.header .navbar .navbar-nav .nav-link:hover {
+  color: #8db2c8;
+}
+.header .navbar .end-round {
+  border: 3px solid #1867af;
+  padding: 0 15px;
+  border-radius: 25px;
+}
+.header .navbar .end-round .lang {
+  display: inline-block;
+  border-right: 1px solid #8db2c8;
+  padding: 5px;
+}
+
 /*===// end of layouts css === */
 /*=== components css start === */
 /*===// end of components css === *//*# sourceMappingURL=style.css.map */
