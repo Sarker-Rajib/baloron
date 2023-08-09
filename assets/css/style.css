@@ -117,6 +117,9 @@ body {
   text-decoration: underline;
   padding-bottom: 10px;
 }
+.footer .footer-top ul li {
+  padding-bottom: 5px;
+}
 .footer .footer-top a {
   color: #4b4d51;
 }
@@ -154,6 +157,22 @@ body {
 
 /*===// end of layouts css === */
 /*=== components css start === */
+.reserve-btn {
+  color: #fff;
+  background: rgba(141, 178, 200, 0);
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-inline: 10px;
+}
+.reserve-btn:hover {
+  border: 1px solid #8db2c8;
+}
+.reserve-btn.active {
+  background: #8db2c8;
+  border: 1px solid #8db2c8;
+}
+
 .banner {
   min-height: 840px;
   background: url(../images/banner-bg.png) no-repeat left bottom/cover;

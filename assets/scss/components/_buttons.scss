@@ -1,0 +1,17 @@
+.reserve-btn {
+    color: #fff;
+    background: #8db2c800;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-inline: 10px;
+
+    &:hover {
+        border: 1px solid #8db2c8;
+    }
+
+    &.active {
+        background: #8db2c8;
+        border: 1px solid #8db2c8;
+    }
+}
