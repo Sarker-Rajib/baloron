@@ -21,6 +21,11 @@
             display: flex;
             border-right: 1px dashed #809fce;
 
+            @media(max-width:991px) {
+                margin-bottom: 40px;
+                border: none;
+            }
+
             .image {
                 margin-right: 10px;
             }
@@ -37,6 +42,8 @@
                 }
 
                 a {
+                    display: inline-block;
+                    margin-top: 15px;
                     color: #83a7c8;
 
                     &:hover {
@@ -50,6 +57,10 @@
 
 .pro-tech-f {
     padding: 150px 0;
+
+    @media(max-width:991px) {
+        padding: 80px 0;
+    }
 
     .container {
         @media(min-width: 1600px) {
@@ -90,11 +101,26 @@
     padding: 150px 0;
     background: #241e20;
     color: #fff !important;
+
+    @media(max-width:991px) {
+        padding: 80px 0;
+    }
+
+    .line {
+        width: 80px;
+        border: 2px solid #6b6b6b;
+        box-shadow: 0px 3px 5px 0px #000;
+        margin-bottom: 50px;
+    }
 }
 
 .pro-tech-t {
     padding: 150px 0;
     background: #c4c4c4;
+
+    @media(max-width:991px) {
+        padding: 80px 0;
+    }
 
     .top {
         position: relative;
@@ -123,6 +149,17 @@
 .latest-case {
     padding: 150px 0;
 
+    @media(max-width:991px) {
+        padding: 80px 0;
+    }
+
+    .line {
+        width: 80px;
+        border: 2px solid #6b6b6b;
+        box-shadow: 0px 3px 5px 0px #000;
+        margin-bottom: 30px;
+    }
+
     .bottom {
         margin-top: 30px;
         position: relative;
@@ -143,6 +180,10 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 50px;
+
+            @media(max-width:991px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
 
             .b-card {
                 border: 1px solid #000;
